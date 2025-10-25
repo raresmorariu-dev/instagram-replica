@@ -29,3 +29,81 @@ header {
     padding-right: 10px;
     
 }
+
+/* post details and poster avatar */
+
+.post-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+}
+
+.poster-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin:10px 10px;
+}
+
+.name,
+.location { 
+    margin: 0px;
+}
+
+.name { 
+    font-weight: bold;
+}
+
+.post-image {
+    width: 100%;
+}
+
+/* post engagement */
+
+.engagement-btns { 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.like-btn,
+.like-img,
+.comment-btn,
+.comment-img,
+.dm-btn,
+.dm-img {
+    width: 25px;
+    height: 25px;
+    padding-top: 5px;
+}
+
+.like-btn,
+.comment-btn,
+.dm-btn {
+    background-color: transparent;
+    border: none;
+    margin-right: 10px
+}
+
+/* engagement details */
+
+.engagement-details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding:10px 10px;
+}
+
+.likes {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.description { 
+    margin-top: 5px;
+}
+
+.description span {
+    font-weight: bold;
+}
